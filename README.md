@@ -1,37 +1,13 @@
 # Analysis-on-Electric-Vehicles
 
-## Features 
+This project focuses on analyzing electric vehicle (EV) registration data through Exploratory Data Analysis (EDA) to derive meaningful insights. The dataset contains various attributes such as vehicle make, model year, electric range, and Clean Alternative Fuel Vehicle (CAFV) eligibility, providing a comprehensive view of the EV landscape across different locations.
 
-VIN (1-10): The first 10 characters of the unique Vehicle Identification Number.
+The project employs multiple data analysis techniques:
 
-County: The name of the county where the vehicle is registered.
+Univariate Analysis: This includes visualizations like histograms, box plots, and pie charts to understand the distribution of individual variables, such as the distribution of model years and the proportion of CAFV eligibility among vehicles.
 
-City: The city where the vehicle is located or registered.
+Bivariate Analysis: We explore relationships between two variables, such as the electric range across different vehicle makes, helping to identify which brands offer the highest electric ranges.
 
-State: The U.S. state where the vehicle is registered.
+Advanced Visualization: The project includes the creation of a choropleth map to visualize the geographical distribution of EVs and a racing bar plot to animate the evolution of EV counts by make over time.
 
-Postal Code: The postal code (ZIP code) of the vehicle's registration location.
-
-Model Year: The year the vehicle model was manufactured.
-
-Make: The manufacturer or brand of the vehicle (e.g., Tesla, Nissan).
-
-Model: The specific model of the vehicle (e.g., Model S, LEAF).
-
-Electric Vehicle Type: Type of electric vehicle (Battery Electric Vehicle or Plug-in Hybrid Electric Vehicle).
-
-Clean Alternative Fuel Vehicle (CAFV) Eligibility: Indicates if the vehicle is eligible for clean alternative fuel vehicle incentives.
-
-Electric Range: The distance the vehicle can travel on electric power alone, in miles.
-
-Base MSRP: The Manufacturer's Suggested Retail Price (base price) of the vehicle.
-
-Legislative District: The legislative district where the vehicle is registered (relevant for representation).
-
-DOL Vehicle ID: A unique identifier assigned by the Department of Licensing for vehicle registration.
-
-Vehicle Location: The geographical coordinates (latitude, longitude) representing the vehicle’s location.
-
-Electric Utility: The electric utility company serving the area where the vehicle is located.
-
-2020 Census Tract: The census tract for the area where the vehicle is registered, used for demographic analysis.
+Data Cleaning and Handling Missing Values: Missing data is handled using appropriate imputation techniques to ensure robust analysis, while summary statistics provide an overview of the dataset’s key numerical features.
